@@ -173,6 +173,7 @@ header{
   }
   /*Requirement 16*/
   .price{
+    display: flex;
     vertical-align: bottom;
   }
   /*Requirement 17*/
