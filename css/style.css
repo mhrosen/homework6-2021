@@ -32,6 +32,7 @@ header{
 
 /*Requirement 4*/
 .price{
+    display: flex;
     min-height: 500px;
     align-items: center;
     flex-wrap: wrap;
