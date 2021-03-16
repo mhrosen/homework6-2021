@@ -171,7 +171,7 @@ header{
   
   /*Requirement 15*/
   .nav_links{
-    justify-content: space-between;
+    justify-content: center;
   }
   /*Requirement 16*/
   .price{
