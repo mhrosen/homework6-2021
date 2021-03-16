@@ -71,7 +71,6 @@ header{
   display: flex;
   min-height: 600px;
   flex-wrap: wrap;
-  flex-direction: column; /*row is for desktop*/
   align-items: center;
   /*Your code here again.*/
 
