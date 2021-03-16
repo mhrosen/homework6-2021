@@ -68,6 +68,7 @@ header{
 
 /*Requirement 7*/
 .gallery{
+  display: flex;
   min-height: 600px;
   flex-wrap: wrap;
   flex-direction: column; /*row is for desktop*/
