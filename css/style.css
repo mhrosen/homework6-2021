@@ -92,9 +92,7 @@ header{
 #logo{
    /*Your code here.*/
    animation-name: logo_grow;
-   -webkit-animation-duration: 15s;
    animation-duration: 15s;
-   -webkit-animation-iteration-count: 1;
    animation-iteration-count: 1;
 
  
@@ -103,6 +101,10 @@ header{
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{ /*keyframes are for animations*/
   /*Your code here.*/
+  #logo{
+     -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: 1;
+  }
   from {
     opacity: 0;
     width: 25px;
@@ -112,6 +114,7 @@ header{
     opacity: 1;
     width: 420px;
   }
+  
 }
 
 @keyframes logo_grow{
