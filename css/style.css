@@ -139,6 +139,7 @@ header{
 
   /*Requirement 10*/
   .nav_links{
+    display: flex;
     flex-direction:row;
     justify-content: space-between;
     /*Your code here again.*/  
