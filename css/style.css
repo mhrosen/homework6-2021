@@ -92,7 +92,7 @@ header{
 #logo{
    /*Your code here.*/
    animation-duration: 15s;
-   animation-name: "logo_grow";
+   animation-name: logo_grow;
    animation-iteration-count: 1;
 
  
