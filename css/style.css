@@ -68,6 +68,7 @@ header{
 
 /*Requirement 7*/
 .gallery{
+  display: flex;
   min-height: 600px;
   flex-wrap: wrap;
   flex-direction: column; /*row is for desktop*/
@@ -92,6 +93,7 @@ header{
 #logo{
    /*Your code here.*/
    animation-duration: 15s;
+   animation-name: "logo_grow";
    animation-iteration-count: 1;
 
  
