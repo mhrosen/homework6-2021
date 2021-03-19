@@ -70,8 +70,8 @@ header{
 .gallery{
   display: flex;
   min-height: 600px;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   /*Your code here again.*/
 
 }
@@ -144,8 +144,8 @@ header{
 
   /*Requirement 11*/
   .package {
-    flex-direction:row;
     flex-basis: 230px;
+    flex-direction:row;
     /*Your code here again.*/
   } 
 }
@@ -173,14 +173,12 @@ header{
   
   /*Requirement 15*/
   .nav_links{
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   /*Requirement 16*/
   .price{
-    display: flex;
-    vertical-align: bottom;
+    align-items:flex-end;
   }
   /*Requirement 17*/
   .package{
@@ -188,7 +186,7 @@ header{
     flex-basis: 200px;
   }
   /*Requirement 18*/
- #gallery{
+ #gallery, .gallery{
    display: none;
  }
 }
